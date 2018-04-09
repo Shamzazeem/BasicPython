@@ -2,7 +2,7 @@ import csv
 import random
 import operator
 import math
-
+# http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data (data set link)
 def load_dataset(filename, split):
     training_set = []
     test_set = []
